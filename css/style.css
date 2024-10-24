@@ -1,0 +1,29 @@
+.star {
+    color: gray;
+    font-size: 14px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+input {
+    margin-bottom: 8px;
+}
+
+
+
+#visparigi {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#jaunumi {
+    margin-left: 0px;
+}
+
+form {
+    align-items: center;
+}

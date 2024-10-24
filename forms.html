@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakta forma.</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Sazinies ar mums.</h1>
+    <span class="star">Obligatie izpildei ir apzīmēti ar (*)</span>
+    <form action="/">
+      <label for="tehniskie">Vārds (*): </label>
+      <input type="text" placeholder="Vārds" required />
+      <br />
+      <label for="tehniskie">E-pasts (*): </label>
+      <input type="text" placeholder="E-pasts" required />
+      <br />
+      <span>Izvēlies (*):</span>
+      <br />
+      <input type="radio" name="1" id="tehniskie" required />
+      <label for="tehniskie">Tehniskais atbalsts</label>
+      <br />
+      <input type="radio" name="1" id="piedavajumi" required />
+      <label for="piedavajumi">Piedāvājumi</label>
+      <br />
+      <input type="radio" name="1" id="visparigi" required />
+      <label for="visparigi">Vispārīgi jautājumi</label>
+      <br />
+      <input type="checkbox" name="2" id="jaunumi" />
+      <label for="jaunumi">Piekrītu saņemt jaunumus</label>
+      <br />
+      <textarea
+        name="3"
+        id=""
+        cols="60"
+        rows="5"
+        placeholder="Ziņojums (*)"
+        required
+      ></textarea>
+      <br />
+      <button type="submit">Iesniegt</button>
+    </form>
+  </body>
+</html>
